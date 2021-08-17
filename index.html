@@ -33,6 +33,10 @@
 				.text-9{
 				font-size: 9px !important;
 				}
+				/* width */
+				.srollbar ::-webkit-scrollbar {
+				width: 10px !important;
+				}
 			}
 			@media(min-width:1024px){
 				.text-22{
@@ -74,7 +78,8 @@
 				<div class=" grid xl:grid-cols-2 grid-cols-1 shadow-2xl bg-white rounded">
 					<!---001--->
 					<div id="bg1" class=" bg-center bg-cover bg-no-repeat">
-						<img class=" xl:w-full mx-auto h-full xl:px-0 px-24" src="images/Durand_Robert.jpg" alt="//">
+						<img class=" xl:w-full hidden md:block mx-auto h-full xl:px-0 px-24" src="images/Durand_Robert.jpg" alt="//">
+						<img class="mx-auto md:hidden block" style="height:209px;" src="images/Durand_Robert.jpg" alt="//">
 					</div>
 					<!---002--->
 					<div class=" px-6">
@@ -105,7 +110,7 @@
 						</div>
 						<!---->
 						<div class="text-gray-500 mt-5 srollbar">
-							<div class=" xl:col-span-11 overflow-auto xl:h-72 h-40 pr-10">
+							<div class=" xl:col-span-11 overflow-auto xl:h-72 h-40 pr-5">
 								<p class=" xl:text-base text-xs">Ce cours offrira aux participants une revue des paramètres de la thérapie implantaire au niveau de la zone esthétique antérieure. Le volet didactique du cours portera sur les concepts essentiels au diagnostic, à la planification ainsi qu’à la réalisation d’un traitement implantaire au niveau de la région esthétique, tant du point de vue chirurgical que prosthodontique.</p><p class="mt-3 xl:text-base text-xs">This course will provide participants with a review of the parameters of implant therapy at the level of the anterior aesthetic zone. The didactic part of the course will focus on the concepts essential to diagnosis, planning and carrying out implant treatment in the aesthetic region, both from a surgical and prosthodontic point of view.
 								</p>
 							</div>
